@@ -16,13 +16,13 @@ AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestro
   }
   ngOnInit(){
     console.log('ngOnInit() called');
-  }
+  } 
 
   ngOnChanges() {
     console.log('ngOnChanges() called');
 
   }
-  
+
   ngDoCheck() {
     console.log('ngDoCheck() called');
   }
